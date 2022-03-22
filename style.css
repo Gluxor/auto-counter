@@ -1,0 +1,37 @@
+.visible{
+    transition: 1s ease-in-out;
+    opacity: 1;
+}
+letter-animation{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: rgb(97, 78, 201);
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+}
+letter-animation div{
+    opacity: 0;
+}
+.pudlo{
+    border: 2px solid red;
+
+}
+.pudlo2{
+    border: 2px solid limegreen;
+
+}
+.pudlo , .pudlo2{
+    margin-top: 20px;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+.pudlo div, .pudlo2 div{
+    border-bottom: 1px solid black;
+}
+.pudlo label, .pudlo2 label {
+    border-bottom: 1px solid red;
+}
